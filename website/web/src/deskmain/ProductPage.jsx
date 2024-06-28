@@ -6,7 +6,7 @@ import { useCart } from './CartContext'; // Import the CartContext
 import image1 from './Images/bog11.jpg';
 import image2 from './Images/bog4.jpg';
 import image3 from './Images/bog12.jpg';
-import image4 from './Images/bog7.jpg';
+import image4 from './Images/10.jpg';
 import image5 from './Images/bage6.jpg';
 import image6 from './Images/bag3.jpg';
 import image7 from './Images/bag4.jpg';
