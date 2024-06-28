@@ -1,0 +1,337 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+/* General styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6c63ff;
+}
+
+.nav a {
+  margin-right: 20px;
+}
+
+.create-account {
+  padding: 8px 16px;
+  border: 2px solid #6c63ff;
+  border-radius: 4px;
+  color: #6c63ff;
+}
+
+/* Hero section styles */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #f5f5f5;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #6c63ff;
+}
+
+.search-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-options {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-options button {
+  flex: 1;
+  padding: 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.search-options button:last-child {
+  margin-right: 0;
+}
+
+.search-fields {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-fields input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-fields button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #6c63ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Services section styles */
+.services {
+  padding: 50px;
+  text-align: center;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.service-card {
+  flex: 1;
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Properties section styles */
+.properties {
+  padding: 50px;
+  text-align: center;
+}
+
+.property-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.property-card {
+  flex: 1;
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.property-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* How It Works section styles */
+.how-it-works {
+  padding: 50px;
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.step {
+  flex: 1;
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.step img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@layer base{
+    body{
+        @apply font-[poppins]
+    }
+    li{
+   @apply px-4
+    }
+    h1{
+        @apply text-3xl font-semibold
+    }
+    p{
+        @apply font-[poppins]
+    }
+}
+/* Responsive styles */
+/* @media (max-width: 768px) {
+    .App {
+     
+      padding: 10px;
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .Backgroun {
+     
+    }
+  } */
+  
+  /* Add more styles as needed */
+
+
+  /* index.css */
+
+/* Global styles */
+/* index.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Example: Set a background color */
+    color: #333; /* Example: Set text color */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    /* Example: Adjust padding for smaller screens */
+    .App {
+      padding: 10px;
+    }
+  
+    /* Example: Adjust background styles for smaller screens */
+    .Backgroun {
+      /* Adjust styles for smaller screens */
+      background-color: #fff; /* Example: Change background color */
+      padding: 20px;
+    }
+  
+    /* Adjust navigation styles for smaller screens */
+    .Nann {
+      /* Example: Make navigation items stack vertically */
+      ul {
+        flex-direction: column;
+        padding: 0; /* Reset padding for vertical layout */
+      }
+  
+      .logo {
+        font-size: 18px; /* Example: Decrease logo font size */
+        margin-bottom: 10px; /* Example: Add margin below logo */
+      }
+  
+      .nav-links {
+        margin-top: 10px; /* Example: Add space between logo and links */
+        text-align: center; /* Example: Center align nav links */
+      }
+  
+      .nav-links li {
+        padding: 8px 0; /* Example: Adjust padding of each nav item */
+      }
+  
+      .icons {
+        display: flex;
+        justify-content: center; /* Example: Center icons horizontally */
+        margin-top: 20px; /* Example: Add space above icons */
+      }
+  
+      .icons i {
+        margin: 0 10px; /* Example: Add horizontal spacing between icons */
+        font-size: 24px; /* Example: Increase icon size */
+      }
+  
+      .cart-badge {
+        position: relative; /* Example: Adjust badge position */
+        top: -8px;
+        right: -8px;
+      }
+    }
+  
+    /* Example: Adjust footer styles for smaller screens */
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #ccc;
+      color: #666;
+      margin-top: 20px; /* Example: Add space above footer */
+    }
+  
+    /* Add more responsive styles as needed */
+  }
