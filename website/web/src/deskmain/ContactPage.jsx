@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContactPage() {
   return (
-    <h1>helo</h1>
+    <h1>Contact Page </h1>
   )
 }
 
