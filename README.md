@@ -1,2 +1,2 @@
 # Edumaterial-React-Project
-EduMaterial Hub is an innovative online platform designed to revolutionize the way educational materials are accessed and shared among students and educators.
+EduMaterial Hub is a sophisticated online platform engineered to streamline the management and sharing of educational resources. Developed using the robust technologies of HTML, CSS, JavaScript, and React, this web application offers an intuitive, responsive interface that enables educators, students, and researchers to efficiently navigate through a wide array of educational content.
