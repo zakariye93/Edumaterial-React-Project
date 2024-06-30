@@ -29,7 +29,7 @@ const Service = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-8">
                         {services.map((service, index) => (
                             <div key={index} className="text-center transition transform hover:scale-105">
-                                <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 bg-purple-600 text-white rounded-full">
+                                <div className="flex items-center justify-center w-20 h-20 mx-auto mb-4 bg-pink-600 text-white rounded-full">
                                     {service.icon}
                                 </div>
                                 <h3 className="text-lg font-medium text-gray-900">{service.title}</h3>
@@ -41,8 +41,8 @@ const Service = () => {
 
             {/* Display Images with Names and Prices */}
             <section className="properties">
-                <h2>We buy The <span className="highlight">Best</span> Based On The <span className="highlight">edumaterial equipments</span> That You Like</h2>
-                <h3>meet our services</h3>
+                <h1>We buy The <span className="highlight">Best</span> Based On The <span className="highlight">edumaterial equipments</span> That You Like</h1>
+                <h2>meet our services</h2>
                 <div className="property-cards">
                     <div className="property-card">
                         <img src={sampleProperty1} alt="Property 1" />
