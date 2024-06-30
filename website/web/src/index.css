@@ -202,6 +202,24 @@ a {
 
 
 
+/* Add this in your global styles or tailwind config */
+
+/* Increase contrast or add text shadows to enhance text readability on dark backgrounds */
+@layer utilities {
+  .text-shadow {
+    text-shadow: 1px 1px 2px black;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+}
+
+
+
 
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import './App.css';
 
-import Backgroun from './deskmain/Backgroun';
+import Backgroun from './deskmain/Home';
 import Nann from './deskmain/Nann';
 import ProductPage from './deskmain/ProductPage';
 import AboutPage from './deskmain/AboutPage';
