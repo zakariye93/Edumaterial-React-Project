@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaUserAlt, FaCartPlus } from "react-icons/fa";
+import { FaUserAlt, FaCartPlus ,FaTimesCircle} from "react-icons/fa";
 import { GiEternalLove } from "react-icons/gi";
 import { SiMaterialformkdocs } from "react-icons/si";
 import { useCart } from './CartContext'; // Import the CartContext
@@ -54,10 +54,13 @@ function Nann() {
       {showCartDetails && (
         <div className="fixed top-0 left-0 right-0 bottom-0 bg-gray-900 bg-opacity-50 flex justify-center items-center z-50">
           <div className="bg-white p-8 max-w-lg rounded-lg shadow-lg">
-            <button className="absolute top-2 right-2 text-gray-500" onClick={toggleCartDetails}>
-              Close
-            </button>
+          <button className=" ml-18 t-5 text-red-500 " onClick={toggleCartDetails}>
+  <FaTimesCircle className="" />
+</button>
+  
+
             <h2 className="text-xl font-semibold mb-4">Cart Details</h2>
+         
             {cart.map(product => (
               <div key={product.id} className="flex items-center space-x-4 mb-4">
                 <img src={product.image} alt={product.name} className="w-16 h-16 object-cover rounded-md shadow-md" />
