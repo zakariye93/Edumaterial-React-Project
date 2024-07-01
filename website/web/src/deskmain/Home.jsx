@@ -1,5 +1,5 @@
 import React from 'react';
-import video from '../deskmain/Images/veugit3.mp4'; // Adjust the video path as per your project structure
+import video from '../deskmain/Images/veu.mp4'; // Adjust the video path as per your project structure
 
 function Backgroun() {
   return (
