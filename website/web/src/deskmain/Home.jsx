@@ -19,7 +19,7 @@ function Backgroun() {
           Lorem ipsum  consectetur adipisicing elit.
           Sequi ullam repudiandae aperiam.
         </p>
-        <button className="bg-pink-500 px-6 py-3 rounded-md text-white text-lg hover:bg-gray-500/30 mt-2 border-b-2 border-l-2 border-b-gray-950">
+        <button className="bg-orange-500 px-6 py-3 rounded-md text-white text-lg hover:bg-gray-500/30 mt-2 border-b-2 border-l-2 border-b-gray-950">
           Shop Now
         </button>
       </div>
