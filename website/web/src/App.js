@@ -26,6 +26,8 @@ function App() {
             <Customer/>
             <ProductPage />
             <ContactPage />
+            {/* <footer write here /> */}
+
           </>} />
           <Route path="/more-about-us" element={<MoreAboutUs />} />
           <Route path="/product/:id" element={<ProductDetail />} />
