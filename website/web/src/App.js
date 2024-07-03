@@ -11,6 +11,7 @@ import ContactPage from './deskmain/ContactPage';
 import MoreAboutUs from './deskmain/MoreAboutUs';
 import ProductDetail from './deskmain/ProductDetail';
 import Customer from './deskmain/Customer';
+
 // import CartDetails from './deskmain/CartDetails';
 
 function App() {
