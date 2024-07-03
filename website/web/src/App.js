@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import './App.css';
 
-import Backgroun from './deskmain/Home';
+import Backgroun from './deskmain/Home'; // Import the Home component
 import Nann from './deskmain/Nann';
 import ProductPage from './deskmain/ProductPage';
 import AboutPage from './deskmain/AboutPage';
@@ -20,16 +20,12 @@ function App() {
       <div className="App">
         <ConditionalComponents />
         <Routes>
-          <Route path="/" element={<>
-            <AboutPage />
-          
-            <Service />
-            <Customer/>
-            <ProductPage />
-            <ContactPage />
-            {/* <footer write here /> */}
-
-          </>} />
+          <Route path="/" element={<HomePage />} /> {/* Route for the Home page */}
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/products" element={<ProductPage />} />
+          <Route path="/offers" element={<Service />} />
+          <Route path="/customer" element={<Customer />} />
+          <Route path="/contact" element={<ContactPage />} />
           <Route path="/more-about-us" element={<MoreAboutUs />} />
           <Route path="/product/:id" element={<ProductDetail />} />
         </Routes>
@@ -37,6 +33,17 @@ function App() {
     </Router>
   );
 }
+
+const HomePage = () => (
+  <>
+    <AboutPage />
+    <Service />
+    <Customer />
+    <ProductPage />
+    <ContactPage />
+    {/* <footer write here /> */}
+  </>
+);
 
 const ConditionalComponents = () => {
   const location = useLocation();
@@ -49,7 +56,7 @@ const ConditionalComponents = () => {
   return (
     <>
       <Nann />
-     <Backgroun />
+      <Backgroun />
     </>
   );
 };
