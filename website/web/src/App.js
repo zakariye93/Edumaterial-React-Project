@@ -8,9 +8,11 @@ import ProductPage from './deskmain/ProductPage';
 import AboutPage from './deskmain/AboutPage';
 import Service from './deskmain/Service';
 import ContactPage from './deskmain/ContactPage';
+import Footer from './deskmain/Footer';
 import MoreAboutUs from './deskmain/MoreAboutUs';
 import ProductDetail from './deskmain/ProductDetail';
 import Customer from './deskmain/Customer';
+
 // import CartDetails from './deskmain/CartDetails';
 
 function App() {
@@ -26,6 +28,7 @@ function App() {
             <Customer/>
             <ProductPage />
             <ContactPage />
+            <Footer/>
           </>} />
           <Route path="/more-about-us" element={<MoreAboutUs />} />
           <Route path="/product/:id" element={<ProductDetail />} />
