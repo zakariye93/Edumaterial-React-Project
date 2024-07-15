@@ -1,5 +1,4 @@
 // src/deskmain/ProductDetail.jsx
-
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { FaStar } from 'react-icons/fa';

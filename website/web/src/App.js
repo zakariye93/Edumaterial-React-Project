@@ -5,7 +5,7 @@ import './App.css';
 import Backgroun from './deskmain/Home';
 import Nann from './deskmain/Nann';
 import ProductPage from './deskmain/ProductPage';
-import AboutPage from './deskmain/AboutPage';
+
 import Service from './deskmain/Service';
 import ContactPage from './deskmain/ContactPage';
 import Footer from './deskmain/Footer';
@@ -18,11 +18,12 @@ import Customer from './deskmain/Customer';
 function App() {
   return (
     <Router>
+      
       <div className="App">
         <ConditionalComponents />
         <Routes>
           <Route path="/" element={<>
-            <AboutPage />
+           
           
             <Service />
             <Customer/>

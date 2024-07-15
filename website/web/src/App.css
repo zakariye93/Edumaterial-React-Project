@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+.active {
+  font-weight: bold;
+  color: red;
+}
 
 .App-logo {
   height: 40vmin;
